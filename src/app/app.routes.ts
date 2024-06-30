@@ -1,8 +1,8 @@
 import { Routes } from '@angular/router';
-import { HomeComponent } from './home/home.component';
-import { AboutComponent } from './about/about.component';
-import { NotFoundComponent } from './not-found/not-found.component';
-import { WeatherComponent } from './weather/weather.component';
+import { HomeComponent } from './components/home/home.component';
+import { AboutComponent } from './components/about/about.component';
+import { NotFoundComponent } from './components/page-not-found/page-not-found.component';
+import { ContactComponent } from './components/contact/contact.component';
 
 export const routes: Routes = [
     {
@@ -14,8 +14,8 @@ export const routes: Routes = [
         component: AboutComponent,
     },
     {
-        path: 'weather',
-        component: WeatherComponent,
+        path: 'contact',
+        component: ContactComponent,
     },
     {
         path: '**',

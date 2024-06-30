@@ -1,12 +1,13 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-weather',
+  selector: 'weather',
   standalone: true,
   imports: [],
   templateUrl: './weather.component.html',
   styleUrl: './weather.component.css'
 })
+
 export class WeatherComponent {
 
 }
